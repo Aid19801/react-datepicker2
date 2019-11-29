@@ -9748,7 +9748,7 @@ function (_Component) {
         className: styles.next,
         onClick: nextMonth,
         dangerouslySetInnerHTML: leftArrow
-      })), this.props.isGregorian && React__default.createElement(React__default.Fragment, null, React__default.createElement("p", null, "Button here TEST"), React__default.createElement("button", {
+      })), this.props.isGregorian && React__default.createElement(React__default.Fragment, null, React__default.createElement("button", {
         type: "button",
         title: "next month",
         className: styles.next,
