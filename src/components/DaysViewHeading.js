@@ -54,7 +54,6 @@ export default class Heading extends Component {
         )}
         {this.props.isGregorian && (
           <React.Fragment>
-            <p>Button here TEST</p>
             <button
               type="button"
               title="next month"
