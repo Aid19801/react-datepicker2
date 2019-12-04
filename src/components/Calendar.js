@@ -221,7 +221,7 @@ export class Calendar extends Component {
     const { mode, isGregorian } = this.state;
 
     const jalaaliClassName = isGregorian ? '' : 'jalaali ';
-    debugger;
+
     return (
       <div className={`${styles.calendarContainer} ${jalaaliClassName}${className}`}>
         {this.props.showToggleButton && <input type="button" value={(isGregorian)?this.props.toggleButtonText[0]:this.props.toggleButtonText[1]} onClick={this.changeCalendarMode.bind(this)} />}
