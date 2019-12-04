@@ -10467,7 +10467,6 @@ function (_Component) {
           mode = _this$state4.mode,
           isGregorian = _this$state4.isGregorian;
       var jalaaliClassName = isGregorian ? '' : 'jalaali ';
-      debugger;
       return React__default.createElement("div", {
         className: "".concat(styles.calendarContainer, " ").concat(jalaaliClassName).concat(className)
       }, this.props.showToggleButton && React__default.createElement("input", {
